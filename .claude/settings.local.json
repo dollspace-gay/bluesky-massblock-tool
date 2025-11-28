@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bd init:*)",
+      "Bash(bd create:*)",
+      "Bash(bd update:*)",
+      "Bash(bd close bluesky-massblock-tool-k4q --reason=\"Created block_followers.py script\")",
+      "Bash(bd close bluesky-massblock-tool-0nx --reason=\"Added RateLimiter class with exponential backoff\")",
+      "Bash(bd close:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
